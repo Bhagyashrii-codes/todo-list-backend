@@ -54,19 +54,7 @@ todo-list-backend/
 
 4. Create a MySQL database named `todo_list_db` and create the `tasks` table.
 
-5. Create a `.env` file in the project root with the following settings:
-
-   ```dotenv
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASSWORD=your_mysql_password
-   DB_NAME=todo_list_db
-   PORT=3000
-   ```
-
-   Replace `your_mysql_password` with your local MySQL password. Never upload your actual `.env` file.
-
-6. Start the server:
+5. Start the server:
 
    `node server.js`
 
